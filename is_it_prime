@@ -1,0 +1,12 @@
+num = int(input("Give me a number: "))
+a = [i for i in range (2,num) if num % i == 0]
+
+def is_it_prime (x):
+    if x>1:
+        if len(a) == 0:
+            print ("Given number is a prime.")
+        else:
+            print("Given number is not a prime.")
+
+is_it_prime (num)
+
